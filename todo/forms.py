@@ -7,7 +7,7 @@ class UpdateTask(forms.Form):
 
 
 class CreateTaskForm(forms.ModelForm):
-    
+
     class Meta:
         model = Task
-        fields = ('title', )
+        fields = ("title",)
